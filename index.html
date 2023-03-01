@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="img/rocket.png" type="image/x-icon" />
+    <script src="index.js" defer></script>
+
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <main class="row">
+      <div class="col image--div">
+        <img src="img/space1.jpg" alt="in outer space" id="stars" />
+        <div class="logo"></div>
+      </div>
+
+      <div class="form">
+        <form action="#" method="get" class="col">
+          <div class="form--title">
+            <p class="title--statement">
+              We chose to go to the moon. We choose to go to the moon in this
+              decade and do the other things not because they are easy, but
+              because they are hard.
+            </p>
+            <p class="author">- John F. Kennedy</p>
+            <p class="title--action">We choose to go to the moon!</p>
+          </div>
+          <div class="form--main">
+            <p class="user-details--title">Let's do this!</p>
+            <div class="user-details">
+              <div class="input-box">
+                <label for="firstname">
+                  <span>First Name</span>
+                </label>
+                <input
+                  type="text"
+                  id="firstname"
+                  name="username"
+                  placeholder="Neil"
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="lastname">
+                  <span>Last Name</span>
+                </label>
+                <input
+                  type="text"
+                  id="lastname"
+                  name="username"
+                  placeholder="Armstrong"
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="mail">
+                  <span>Email</span>
+                </label>
+                <input
+                  type="email"
+                  id="mail"
+                  name="usermail"
+                  placeholder="aldrin@nasa.com"
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="cellnum">
+                  <span>Phone Number</span>
+                </label>
+                <input type="tel" name="num" id="cellnum" />
+              </div>
+
+              <div class="input-box last-input">
+                <label for="pwd">
+                  <span>Password</span>
+                </label>
+                <input type="password" id="pwd" name="password" />
+              </div>
+
+              <div class="input-box last-input">
+                <label for="okpwd">
+                  <span>Confirm Password</span>
+                </label>
+                <input type="password" id="okpwd" name="password" />
+              </div>
+            </div>
+          </div>
+          <div class="submit">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

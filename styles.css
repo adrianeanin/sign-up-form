@@ -1,0 +1,178 @@
+/* @import url("normalize.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap");
+
+form {
+  font-family: "Rajdhani", sans-serif;
+}
+
+.row {
+  text-align: center;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
+.logo {
+  background-color: rgb(74, 74, 74);
+  opacity: 0.5;
+  padding: 2rem 50%;
+  background-image: url(img/nasalogo.png);
+  background-size: 30% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100px;
+}
+
+button {
+  color: black;
+  background-color: rgb(198, 204, 204);
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  border: none;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+.image--div {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(198, 204, 204);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(0, 102, 128);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(198, 204, 204);
+}
+
+a:active {
+  text-decoration: underline;
+  color: blue;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+@media (min-width: 600px) {
+  .row {
+    display: flex;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image--div {
+    width: 70%;
+    height: 100vh;
+  }
+
+  .logo {
+    padding: 80px 50%;
+  }
+
+  /*form styling*/
+  .form {
+    margin: 30px 0 30px 50px;
+  }
+
+  .form--main {
+    border: 1px;
+    width: 70%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .user-details {
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row;
+    text-align: start;
+  }
+
+  .user-details--title {
+    padding-top: 20px;
+  }
+  .row {
+    text-align: center;
+  }
+
+  p {
+  }
+
+  .form--title {
+    width: 70%;
+  }
+
+  .title--statement {
+    margin-top: 2rem;
+    font-size: larger;
+    text-align: start;
+  }
+
+  .author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px;
+    margin-right: 40px;
+  }
+
+  button,
+  input {
+    font-family: inherit;
+    font-size: 100%;
+  }
+
+  label {
+    display: block;
+  }
+  input {
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .last-input {
+    margin-bottom: 50px;
+  }
+  .submit {
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  body {
+    overflow: hidden;
+  }
+}
