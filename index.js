@@ -28,4 +28,9 @@ function changeImage() {
   }
 }
 
+window.onload = function () {
+  var audio = document.getElementById("moon");
+  audio.play();
+};
+
 changeImage();
