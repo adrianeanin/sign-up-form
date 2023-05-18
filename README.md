@@ -1,4 +1,4 @@
-# Sign-Up-Form---TOP
+# Sign-Up-Form
 
 This is a basic sign up form created using HTML, CSS, and a little bit of JavaScript. This form can be used as a template for creating a sign up form for any website or application.
 
