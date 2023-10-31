@@ -13,7 +13,6 @@ The CSS code for this form includes the styling for the various elements of the 
 ## JavaScript
 
 The JavaScript code for this form is minimal and includes changes the side image after an interval.
-How to Use
 
 ## Credits
 
